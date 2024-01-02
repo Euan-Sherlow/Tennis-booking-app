@@ -1,0 +1,9 @@
+VALID_USER = {'username': 'jbousfield92@outlook.com', 'password': 'SE-Team12'}
+VALID_ADMIN = {'username': 'adminadmin@outlook.com', 'password': 'Admin123'}
+VALID_CLUB_MEMBER = {'username':'test@outlook.com', 'password':'Happy321'}
+EMAIL_DOESNT_EXIST = {'username': 'nouser@outlook.com', 'password': 'IdontExist123'}
+WRONG_PASSWORD = {'username': 'jbousfield92@outlook.com', 'password': 'WrongPassword321'}
+SAFE_CREATE_DELETE = {'email': 'test2@example.com','password': 'testPassword123','fname': 'John','lname': 'Doe','role': 'user'}
+USER_EXISTS = {'email': 'jbousfield92@outlook.com','password': 'testPassword123','fname': 'John','lname': 'Doe','role': 'user'}
+USER_DOESNT_EXISTS = {'email': 'nouser@outlook.com','password': 'testPassword123','fname': 'John','lname': 'Doe','role': 'user'}
+MAX_CHARS = "A" * 240
